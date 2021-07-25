@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+    &__list{
+       list-style-type: none; 
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+    }
+    &__item{
+        &:not(:last-of-type){
+            margin-right: 2rem;
+        }
+    }
+    &__link{
+        &:link,:visited{
+        color: black;
+        text-transform: capitalize;
+        }
+        &:hover,:active{
+            color: black;
+        }
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+}

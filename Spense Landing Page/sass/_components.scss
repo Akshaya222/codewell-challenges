@@ -1,0 +1,37 @@
+.logo{
+    height:2.7rem;
+}
+.btn{
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 1.4rem 1.7rem;
+    &:focus{
+        outline: none;
+        border: none;
+    }
+}
+.link{
+    text-decoration: none;
+    color: #000;
+    &-text{
+        font-size: 1.4rem;
+        color: #000;
+    }
+}
+
+
+// use path{
+//     fill: red;
+// }
+// #checkmark path{
+//     fill: red!important;
+// }
+
+
+
+

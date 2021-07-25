@@ -1,0 +1,28 @@
+@import "./responsive";
+
+.heading-1{
+    font-size: 5rem;
+}
+.heading-{
+    &2{
+        font-size: 3rem;
+    }
+    &-small{
+        width: 65%;
+        @include respond(tab){
+            width: 100%;
+        }
+    }
+}
+.heading-3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.heading-4{
+    font-size: 1.8rem;
+}
+.icon{
+    &--checkmark{
+        margin-right: 1rem;
+    }
+}
